@@ -1,0 +1,22 @@
+{
+  "name": "puppet",
+  "version": "1.1.0",
+  "main": "script.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon analyze-page.js",
+    "start": "node script.js"
+  },
+  "keywords": ["WebScraping, SEO, Puppeteer, Chrome Dev Tools, Lighthouse"],
+  "author": "AJ Javadi",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "puppeteer": "^23.7.0",
+    "mongoose": "^8.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}

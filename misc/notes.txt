@@ -1,0 +1,48 @@
+Setup:
+
+Requires necessary packages: puppeteer, fs, and path
+
+Creates an async function to handle the page analysis
+
+Browser Configuration:
+
+Launches Puppeteer in headless mode
+
+Sets up viewport size for consistent PDF output
+
+Configures basic security settings
+
+Page Analysis:
+
+Navigates to the specified URL
+
+Waits for network idle to ensure complete page load
+
+Gets page title for file naming
+
+HTML Structure Analysis:
+
+Creates a recursive function to analyze DOM structure
+
+Captures tag names, IDs, and classes
+
+Creates a tree structure of the entire page
+
+PDF Generation:
+
+Saves the page as PDF
+
+Configures margins and page format
+
+Includes background elements
+
+File Saving:
+
+Saves PDF with sanitized filename
+
+Saves HTML structure as JSON file
+
+Uses consistent naming convention
+
+- version 2: Use mongosh to connect to MongoDB as well
+
